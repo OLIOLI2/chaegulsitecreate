@@ -23,7 +23,7 @@ const CHAIN_CONNECTED = {
  */
 const CHAIN_DICTIONARY = {
     1: 'Ethereum Mainnet',
-    5: 'Goerli Testnet'
+    5: 'Goerli Testnet',
     
 };
 
