@@ -348,7 +348,7 @@ const onSubmitContractWrite = async (event) => {
     button.setAttribute('disabled', true);
 
     // Setup Interface + Encode Function
-    const SetGreeting = CONTRACT_ABI.find(i => i.name === 'nif_id');
+    const SetGreeting = CONTRACT_ABI.find(i => i.name === 'nft_id');
     const interface = new ethers.utils.Interface([SetGreeting]);
     const encodedFunction = interface.encodeFunctionData(`${SetGreeting.name}`, [greeting]);
     console.log({ encodedFunction });
